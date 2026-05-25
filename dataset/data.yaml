@@ -3,11 +3,8 @@ val: ../valid/images
 test: ../test/images
 
 nc: 3
-names: ['Helmet', 'With Helmet', 'Without Helmet']
 
-roboflow:
-  workspace: dipashri-solankar
-  project: detection-of-helmet-ygdgh
-  version: 1
-  license: CC BY 4.0
-  url: https://universe.roboflow.com/dipashri-solankar/detection-of-helmet-ygdgh/dataset/1
+names:
+  0: Helmet
+  1: With Helmet
+  2: Without Helmet
